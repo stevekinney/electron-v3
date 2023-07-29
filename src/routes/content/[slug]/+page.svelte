@@ -9,14 +9,16 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="prose mx-auto">
-	<hgroup>
-		<h1>{data.meta.title}</h1>
-	</hgroup>
+<article class="mx-auto">
+	<div class="prose">
+		<hgroup>
+			<h1>{data.meta.title}</h1>
+		</hgroup>
 
-	<svelte:component this={data.content} />
+		<svelte:component this={data.content} />
+	</div>
 
-	<footer class="bg-primary-100 p-4 mt-10 text-sm">
+	<footer class="bg-primary-50 p-4 mt-10 text-sm border-primary-200 border-2">
 		Did you find a mistake or typo? File an issue or make a change <a
 			href="https://github.com/stevekinney/electron-v3/blob/main/src/content/{data.slug}.md">here</a
 		>.
