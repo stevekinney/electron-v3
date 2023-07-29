@@ -1,0 +1,7 @@
+@import '@fontsource-variable/alegreya';
+@import '@fontsource-variable/montserrat';
+@import '@fontsource-variable/fira-code';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
