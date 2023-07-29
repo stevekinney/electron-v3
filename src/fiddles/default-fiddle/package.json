@@ -1,0 +1,16 @@
+{
+  "name": "steady-storage-sketch-iynf8",
+  "productName": "steady-storage-sketch-iynf8",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "stevekinney",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "25.2.0"
+  }
+}
