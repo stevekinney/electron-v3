@@ -9,7 +9,7 @@
 
 <li>
 	<a
-		href="/content/{slug}"
+		href={slug}
 		class="underline decoration-primary-600 underline-offset-2 hover:text-primary-800"
 		class:active
 	>

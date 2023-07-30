@@ -9,7 +9,7 @@
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
 
-<article class="mx-auto">
+<article class="mx-auto mt-8">
 	<div class="prose">
 		<hgroup>
 			<h1>{data.meta.title}</h1>

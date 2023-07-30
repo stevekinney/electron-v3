@@ -5,3 +5,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	nav {
+		@apply text-sm;
+
+		& h2 {
+			@apply font-semibold my-4;
+		}
+
+		& li > a {
+			@apply underline underline-offset-2 decoration-primary-600;
+		}
+	}
+}
